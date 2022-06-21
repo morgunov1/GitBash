@@ -1,0 +1,66 @@
+Термiал. HW_2
+1. Зробити папку dir_1
+      $ mkdir dir_1
+2. Зайти до папки dir_1
+      $ cd dir_1
+3. Створити папку inner_dir_1
+      $ mkdir inner_dir_1
+4. Подивитись де ти знаходишся
+      $ pwd
+5. Перебуваючи в папці dir_1, створити порожній текстовий файл tf_1.txt
+      $ touch tf_1.txt 
+6. Перебуваючи в папці dir_1 через команду cat створити текстовий файл tf_2.txt з наступними рядками:
+- the first 1
+- the second 2
+- the third 3
+      $ cat > tf_2.txt
+        - the first 1
+        - the second 2
+        - the third 3
+7. Зайти до папки inner_dir_1
+      $ cd inner_dir_1
+8. Через cat зробити текстовий файл tf_3.txt з будь-якими рядками
+      $ cat > "tf_3.txt"
+         1
+         2 
+         3
+9. Через cat додати в текстовий файл tf_3.txt рядок “the second 2”
+       $ cat >> "tf_3.txt"
+       “the second 2”
+10. Через cat додати текстовий файл tf_3.txt рядок “the sec 2”
+$ cat >> "tf_3.txt"
+the sec 2
+
+ 11. Через cat додати в текстовий файл tf_2.txt рядок “the sec 3”
+ $ cat >> "tf_2.txt"
+the sec 3
+
+ 12. Через cat додати в текстовий файл tf_3.txt рядок “the SeCoNd 2”
+ $ cat >> "tf_3.txt"
+the SeCoNd 2
+
+ 13. Через cat додати в текстовий файл tf_2.txt рядок “the seConD 2”
+ $ cat >> "tf_2.txt"
+the seConD 2
+
+ 14. Зробити текстовий файл tf_4.txt у якому буде 15 рядків.
+ $ cat > tf_4.txt
+
+ 15. Зробити текстовий файл tF_5.txt у якому буде 13 рядків.
+ $ cat > tF_.5txt
+
+ 16. Вивести список усіх файлів у папці.
+ $ ls -la "inner_dir_1"
+
+ 17. Вийти з папки inner_dir_1
+  $ cd ..
+ 18. Вивести вміст файлу tf_3.txt у термінал.
+ $ cat "tf_3.txt"
+
+ 19. Знайти шлях до файлу tf_4.txt
+ $ realpath file_4.txt
+/d/Ksendzov kurs/Homework/dir_1/inner_dir_1/file_4.txt
+
+ 20. Відчистити файл tf_4.txt від вмісту без видалення файлу.
+  >tf_4.txt
+
